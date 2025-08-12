@@ -46,6 +46,8 @@ python run.py -i examples/inputs/multi -o examples/outputs/multi
 
 4. A score of 0.5 is recommended as the threshold to distinguish between feasible and infeasible splitting sites.
 
+5. We provide a [webserver](https://splitseek.topo.bio/) for user to predict the splitting score easily.
+
 ## Tips
 
 1. In all tests, we found that the predicted score is most representative of the feasibility of splitting between residue n and residue n+1.
