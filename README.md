@@ -9,7 +9,7 @@
 
 ```bash
 git clone https://github.com/pkwyx/SplitSeek-Pro.git
-cd SplitSeek
+cd SplitSeek-Pro
 ```
 
 2. Install `Anaconda` / `Miniconda` software
