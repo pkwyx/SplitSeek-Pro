@@ -8,20 +8,20 @@
 1. Download `SplitSeek-Pro`
 
 ```bash
-git clone https://github.com/pkwyx/SplitSeek.git
+git clone https://github.com/pkwyx/SplitSeek-Pro.git
 cd SplitSeek
 ```
 
 2. Install `Anaconda` / `Miniconda` software
 
-3. Follow the steps below to install the Python package or run the command `conda env create -f environment/splitseek_pro.yml`
+3. Follow the steps below to install the Python package
 
 ```bash
 conda create -n splitseek_pro python=3.12
 conda activate splitseek_pro
 
-pip install -e .
-pip install fair-esm transformers
+pip install -r requirements.txt
+pip install fair-esm
 
 ```
 
